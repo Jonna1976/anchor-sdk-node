@@ -1,6 +1,6 @@
 {
   "name": "@umarise/anchor",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "description": "Umarise Core SDK. Hash-in, proof-out. Zero dependencies.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -13,11 +13,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
-  ],
+  "files": ["dist", "README.md", "LICENSE"],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "prepublishOnly": "npm run build"
@@ -40,8 +36,7 @@
   "license": "Unlicense",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jonna1976/umarise",
-    "directory": "sdk/node"
+    "url": "https://github.com/Jonna1976/anchor-sdk-node"
   },
   "homepage": "https://umarise.com/technical",
   "engines": {
